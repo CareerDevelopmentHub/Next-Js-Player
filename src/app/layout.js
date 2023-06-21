@@ -13,8 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
         className={
-          (inter.className =
-            " w-full h-screen flex items-center justify-center bg-[#1d1d1d]")
+          (inter.className = " w-full flex justify-center bg-[#1d1d1d]")
         }
       >
         {children}
