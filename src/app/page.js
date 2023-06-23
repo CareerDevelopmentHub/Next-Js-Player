@@ -1,5 +1,6 @@
 import Player from "@/components/Player";
-import Image from "next/image";
+// import Image from "next/image";
+// import ReactMarkdown from "react-markdown";
 import { AiOutlineGithub } from "react-icons/ai";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
       type: "boolean",
     },
   ];
+
   return (
     <main className="text-white p-5">
       <p className="text-center pb-5 font-black md:text-6xl text-2xl ">
@@ -44,9 +46,17 @@ export default function Home() {
           <div className="bg-gray-800 w-full p-5 rounded-xl overflow-auto">
             <code>npm i next-js-player</code>
           </div>
+          <p>or</p>
+          <div className="bg-gray-800 w-full p-5 rounded-xl overflow-auto">
+            <code>yarn add next-js-player</code>
+          </div>
           <p>2. Run the command below to install react-icons</p>
           <div className="bg-gray-800 w-full p-5 rounded-xl">
             <code>npm i react-icons</code>
+          </div>
+          <p>or</p>
+          <div className="bg-gray-800 w-full p-5 rounded-xl">
+            <code>yarn add react-icons</code>
           </div>
           <p>
             3. Run the command below to install tailwindcss, if not installed
@@ -54,6 +64,11 @@ export default function Home() {
           <div className="bg-gray-800 w-full p-5 rounded-xl">
             <code className="block">npm install -D tailwindcss</code>
             <code className="block">npx tailwindcss init</code>
+          </div>
+          <p>or</p>
+          <div className="bg-gray-800 w-full p-5 rounded-xl">
+            <code className="block">yarn add -D tailwindcss</code>
+            <code className="block">yarn tailwindcss init</code>
           </div>
           <p className="pt-5 font-bold text-2xl pb-2 text-center">
             Configurations
@@ -181,7 +196,7 @@ export default function Home() {
           </p>
         </div>
         <p className="pt-5 font-bold text-2xl pb-2">Versions</p>
-        <p>v1.1.4: current stable version</p>
+        <p>v1.1.6: current stable version</p>
       </div>
     </main>
   );
