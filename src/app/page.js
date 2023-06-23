@@ -55,6 +55,10 @@ export default function Home() {
             <code className="block">npm install -D tailwindcss</code>
             <code className="block">npx tailwindcss init</code>
           </div>
+          <p className="pt-5 font-bold text-2xl pb-2 text-center">
+            Configurations
+          </p>
+
           <p>
             4. Add the below css to the globals.css {"(for Next Js)"} or to the
             index.css/App.css {"(for React Js)"}
@@ -120,7 +124,9 @@ export default function Home() {
             <code className="block">{"plugins: [],"}</code>
             <code className="block">{"};"}</code>
           </div>
-          <h1 className="md:text-2xl text-base font-bold">6. How to use?</h1>
+          <p className="pt-5 font-bold text-2xl pb-2 text-center">
+            How To Use?(Example)
+          </p>
           <div className="bg-gray-800 w-full p-5 rounded-xl overflow-x-auto">
             <code className="block">import Player from "next-js-player";</code>
             <code className="block">{"export default function Home() {"}</code>
@@ -170,10 +176,12 @@ export default function Home() {
               target="_blank"
               rel="noreferrer"
             >
-              https://github.com/ScreenTechnicals/next-js-player/tree/main
+              https://github.com/ScreenTechnicals/next-js-player
             </a>
           </p>
         </div>
+        <p className="pt-5 font-bold text-2xl pb-2">Versions</p>
+        <p>v1.1.3: current stable version</p>
       </div>
     </main>
   );
