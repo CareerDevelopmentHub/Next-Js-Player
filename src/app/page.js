@@ -23,14 +23,14 @@ export default function Home() {
   ];
 
   return (
-    <main className="text-white p-5">
+    <main className="text-white p-5 w-full bg-black overflow-x-hidden">
       <p className="text-center pb-5 font-black md:text-6xl text-2xl ">
         Next Js Player 🚀
       </p>
-      <div className="md:w-[60%] mx-auto flex justify-center items-center flex-col">
+      <div className="md:w-[60%] w-full mx-auto flex justify-center items-center flex-col">
         <Player source={"/videos/video1.mp4"} width={100} />
       </div>
-      <h1 className="text-center md:w-[60%] mx-auto md:text-xl text-base">
+      <h1 className="text-center md:w-[60%] w-full mx-auto md:text-xl text-base">
         {'"'}next-js-player{'"'} is video player that supports both react and
         next js{"(i.e pages router and app router)"}
       </h1>
@@ -179,19 +179,17 @@ export default function Home() {
         </div>
         <div>
           <p className="text-2xl font-bold pt-5 ">Repository</p>
-          <p className="pt-2 tracking-wider flex items-center space-x-2 text-base pb-10">
-            <span className="flex items-center">
-              <span>
-                <AiOutlineGithub />
-              </span>
-              <span>github:</span>
-            </span>
+          <p className="pt-2 tracking-wider">
             <a
               href="https://github.com/ScreenTechnicals/next-js-player/tree/main"
               target="_blank"
               rel="noreferrer"
+              className="flex w-max items-center"
             >
-              https://github.com/ScreenTechnicals/next-js-player
+              <span>
+                <AiOutlineGithub />
+              </span>
+              <span>Github</span>
             </a>
           </p>
         </div>
