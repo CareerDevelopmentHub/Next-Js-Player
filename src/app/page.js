@@ -62,7 +62,7 @@ export default function Home() {
           <div className="bg-gray-800 w-full p-5 rounded-xl">
             <code>
               {
-                "@tailwind base; @tailwind components; @tailwind utilities; :root { --foreground-rgb: 0, 0, 0; --background-start-rgb: 214, 219, 220; --background-end-rgb: 255, 255, 255; } .player-controls { bottom: -3rem !important; } .video-wraper:hover > .player-controls { bottom: 0 !important; } ::-webkit-media-controls { display: none !important; } video::-webkit-media-controls { display: none !important; } video::-webkit-media-controls-enclosure { display: none !important; } "
+                "@tailwind base; @tailwind components; @tailwind utilities; :root { --foreground-rgb: 0, 0, 0; --background-start-rgb: 214, 219, 220; --background-end-rgb: 255, 255, 255; } .player-controls { bottom: -4rem !important; } .video-wraper:hover > .player-controls { bottom: -15px !important; } ::-webkit-media-controls { display: none !important; } video::-webkit-media-controls { display: none !important; } video::-webkit-media-controls-enclosure { display: none !important; }"
               }
             </code>
           </div>
