@@ -181,7 +181,7 @@ export default function Home() {
           </p>
         </div>
         <p className="pt-5 font-bold text-2xl pb-2">Versions</p>
-        <p>v1.1.3: current stable version</p>
+        <p>v1.1.4: current stable version</p>
       </div>
     </main>
   );
