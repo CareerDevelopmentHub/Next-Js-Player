@@ -6,10 +6,6 @@
 
 [See Demo](https://next-js-player.vercel.app/)
 
-## Github
-
-[Contribut On Github](https://github.com/ScreenTechnicals/next-video-player/)
-
 ## Stacks
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,tailwind,js,next,react)](https://skillicons.dev)
