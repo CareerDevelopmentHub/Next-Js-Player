@@ -1,4 +1,4 @@
-# Contributing to Next Js Player 🚀 🚀
+# Contributing to Next Js Player 🚀
 
 Thank you for your interest in contributing to Next Js Player 🚀. "next-js-player" is video player that supports both react and next js(i.e pages router and app router)
 
