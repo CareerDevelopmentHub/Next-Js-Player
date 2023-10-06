@@ -10,6 +10,27 @@
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,tailwind,js,next,react)](https://skillicons.dev)
 
+## Contribute
+
+Clone This Repo and Move Into The Project Folder:
+
+```
+git clone https://github.com/CareerDevelopmentHub/Next-Js-Player.git
+cd Next-Js-Player
+```
+
+Install All The Dependencies:
+
+```
+npm i or yarn
+```
+
+Start The Local Server:
+
+```
+npm run dev or yarn dev
+```
+
 ## Installation
 
 1. Run the command below to install next-js-player
